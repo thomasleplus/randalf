@@ -1,0 +1,54 @@
+[project]
+name = "randalf"
+version = "1.0.0"
+authors = [
+  { name="Thomas Leplus", email="thomas@leplus.org" },
+]
+maintainers = [
+  { name="Thomas Leplus", email="thomas@leplus.org" },
+]
+description = "Generates a random string of desired length using chosen alphabet."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: MacOS :: MacOS X",
+  "Operating System :: OS Independent",
+  "Operating System :: POSIX",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+]
+keywords = ["random", "PRNG", "generator"]
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+dependencies = [
+  "rich==14.1.0",
+  "typer==0.16.0",
+  "typing-extensions==4.14.1",
+]
+
+[project.urls]
+Changelog = "https://github.com/leplusorg/randalf/releases"
+Documentation6 = "https://github.com/leplusorg/randalf"
+Download = "https://github.com/leplusorg/randalf/releases"
+Homepage = "https://github.com/leplusorg/randalf"
+Issues = "https://github.com/leplusorg/randalf/issues"
+ReleaseNotes = "https://github.com/leplusorg/randalf/releases"
+Source = "https://github.com/leplusorg/randalf.git"
+
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+randalf = "randalf.cli:app"
+
+[project.entry-points."pipx.run"]
+randalf = "randalf.cli:app"
