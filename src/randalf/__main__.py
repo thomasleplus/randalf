@@ -1,4 +1,4 @@
-"""Typer wrapper"""
+"""CLI wrapper"""
 
 import os
 import sys
