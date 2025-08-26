@@ -40,7 +40,7 @@ jobs:
           IFS=$'\n\t'
           sudo pipx ensurepath --global
           sudo pipx install --global twine==6.1.0
-          if sudo pipx upgrade-all --global | tee -a /dev/stderr | grep -q -e .; then
+          if sudo pipx upgrade-all --global | tee -a /dev/stderr | grep -q -e '^upgraded '; then
             exit 1
           fi
       - name: Build
