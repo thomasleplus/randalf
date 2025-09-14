@@ -1,6 +1,5 @@
 ---
-name: Maven Central
-
+name: PyPI
 on:
   schedule:
     - cron: "0 0 * * 0"
