@@ -8,7 +8,7 @@ on:
 permissions: {}
 
 jobs:
-  check:
+  pypi:
     runs-on: ubuntu-latest
     steps:
       - name: Download
