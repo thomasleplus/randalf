@@ -48,7 +48,7 @@ requires = ["hatchling >= 1.26"]
 build-backend = "hatchling.build"
 
 [project.scripts]
-randalf = "randalf.cli:app"
+randalf = "src.randalf.__main__:main"
 
 [project.entry-points."pipx.run"]
-randalf = "randalf.cli:app"
+randalf = "src.randalf.cli:app"

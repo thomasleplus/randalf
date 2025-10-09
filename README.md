@@ -18,21 +18,24 @@ Requires Python 3.8 or later.
 
 ## Installation
 
+### pipx
+
+If you are only interested in Randalf's CLI, it is recommended to
+install it using [pipx](https://github.com/pypa/pipx) to run Randalf
+from it's own isolated virtual environment:
+
+```shell
+pipx install randalf
+```
+
 ### pip
 
-Randalf is available on the Python Package Index (PyPI). You can
-install it using the following command:
+If you prefer to use [pip](https://pypi.org/project/pip/) or if you
+want to be able to use Randalf's API in your Python applications, just
+run:
 
 ```shell
 pip install randalf
-```
-
-### pipx
-
-Randalf is also available via pipx:
-
-```shell
-pipx install 'git+https://github.com/leplusorg/randalf.git'
 ```
 
 ### Docker
