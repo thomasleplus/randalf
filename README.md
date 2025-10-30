@@ -7,7 +7,6 @@ Generates a random string of desired length using chosen alphabet.
 [![FIXME](https://github.com/leplusorg/randalf/workflows/FIXME/badge.svg)](https://github.com/leplusorg/randalf/actions?query=workflow:"FIXME")
 [![PyPI Version](https://img.shields.io/pypi/v/randalf.svg)](https://pypi.python.org/pypi/randalf)
 [![PyPI Downloads](https://img.shields.io/pypi/dm/randalf.svg)](https://pypi.python.org/pypi/randalf)
-[![CodeQL](https://github.com/leplusorg/randalf/workflows/CodeQL/badge.svg)](https://github.com/leplusorg/randalf/actions?query=workflow:"CodeQL")
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10084/badge)](https://bestpractices.coreinfrastructure.org/projects/10084)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/leplusorg/randalf/badge)](https://securityscorecards.dev/viewer/?uri=github.com/leplusorg/randalf)
 [![Python Versions](https://img.shields.io/pypi/pyversions/csvkit.svg)](https://pypi.python.org/pypi/randalf)
