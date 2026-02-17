@@ -100,9 +100,9 @@ Repeat characters in the input ranges or alphabet are ignored.
 
 The supported ranges are the same as inside the
 (`[]`)[https://docs.python.org/3/library/re.html#index-10] of a python
-regular expression. For a litteral `-`, `]`, '^' or '\', you can
+regular expression. For a literal `-`, `]`, '^' or '\', you can
 escape then respectively as `\-`, `\]`, '\^' or '\\'. If the first
-caracter of the ranges option is `^` it means the ranges defines the
+character of the ranges option is `^` it means the ranges defines the
 prohibited characters instead of the desired ones. For non printable
 characters, you can use notations like `\n`, or you can use the ASCII
 value in octal (e.g. `\012`) or hexadecimal (e.g. `\xa0`). You can
