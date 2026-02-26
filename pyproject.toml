@@ -9,7 +9,7 @@ maintainers = [
 ]
 description = "Generates a random string of desired length using chosen alphabet."
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 classifiers = [
   "Development Status :: 5 - Production/Stable",
   "License :: OSI Approved :: Apache Software License",
@@ -18,7 +18,6 @@ classifiers = [
   "Operating System :: POSIX",
   "Programming Language :: Python",
   "Programming Language :: Python :: 3",
-  "Programming Language :: Python :: 3.8",
   "Programming Language :: Python :: 3.9",
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
@@ -36,7 +35,7 @@ dependencies = [
 
 [project.urls]
 Changelog = "https://github.com/leplusorg/randalf/releases"
-Documentation6 = "https://github.com/leplusorg/randalf"
+Documentation = "https://github.com/leplusorg/randalf"
 Download = "https://github.com/leplusorg/randalf/releases"
 Homepage = "https://github.com/leplusorg/randalf"
 Issues = "https://github.com/leplusorg/randalf/issues"
