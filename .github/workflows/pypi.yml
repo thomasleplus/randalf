@@ -16,4 +16,4 @@ jobs:
         run: |
           set -euo pipefail
           IFS=$'\n\t'
-          pip install randalf
+          pipx install randalf
