@@ -5,6 +5,7 @@ rules:
       allow:
         - Azure/*
         - actions/*
+        - astral-sh/*
         - aws-actions/*
         - docker/*
         - github/*
@@ -13,5 +14,6 @@ rules:
         - googleapis/*
         - microsoft/*
         - ossf/*
+        - pypa/*
         - sigstore/*
         - super-linter/super-linter
