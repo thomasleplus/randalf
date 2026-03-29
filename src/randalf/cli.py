@@ -66,9 +66,7 @@ def main(
         raise typer.Exit()
 
     if alphabet and ranges:
-        _err_console.print(
-            "error: conflicting options: specify --alphabet or --ranges."
-        )
+        _err_console.print("error: conflicting options: specify --alphabet or --ranges.")
         raise typer.Exit(code=1)
 
     if alphabet:

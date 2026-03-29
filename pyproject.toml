@@ -46,6 +46,18 @@ Source = "https://github.com/leplusorg/randalf.git"
 requires = ["uv_build>=0.7,<8"]
 build-backend = "uv_build"
 
+[dependency-groups]
+dev = [
+    "ruff>=0.15.8",
+]
+
+[tool.ruff]
+src = ["src"]
+line-length = 120
+
+[tool.ruff.lint]
+ignore = ["E203"]
+
 [project.scripts]
 randalf = "randalf.cli:app"
 
