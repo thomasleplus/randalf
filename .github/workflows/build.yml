@@ -36,27 +36,16 @@ jobs:
           set -euo pipefail
           IFS=$'\n\t'	
           echo "SOURCE_DATE_EPOCH=$(git log -1 --pretty=%ct)" >> "${GITHUB_ENV}"
-      - name: Set up Python
-        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+      - name: Set up uv
+        uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6.8.0
         with:
           python-version: ${{ matrix.python-version }}
-          cache: "pip" # caching pip dependencies
-      - name: Install Build
-        shell: bash
-        run: |
-          set -euo pipefail
-          IFS=$'\n\t'
-          pipx ensurepath
-          pipx install build==1.4.0
-          if pipx upgrade build | tee -a /dev/stderr | grep -q -e '^upgraded '; then
-            exit 1
-          fi
       - name: Build with Python
         shell: bash
         run: |
           set -euo pipefail
           IFS=$'\n\t'
-          pipx run build
+          uv build
       - name: Upload artifacts
         uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
         with:
