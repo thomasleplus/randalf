@@ -13,7 +13,7 @@ Generates a random string of desired length using chosen alphabet.
 
 ## Requirements
 
-Requires Python 3.8 or later.
+Requires Python 3.10 or later.
 
 ## Installation
 
