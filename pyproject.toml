@@ -58,6 +58,9 @@ line-length = 120
 [tool.ruff.lint]
 ignore = ["E203"]
 
+[tool.black]
+line-length = 120
+
 [project.scripts]
 randalf = "randalf.cli:app"
 
