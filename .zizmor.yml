@@ -17,3 +17,7 @@ rules:
         - pypa/*
         - sigstore/*
         - super-linter/super-linter
+  template-injection:
+    ignore:
+      - osv-scanner.yml
+      - osv-scanner-pr.yml
