@@ -29,7 +29,7 @@ license = "Apache-2.0"
 license-files = ["LICENSE"]
 dependencies = [
   "rich==15.0.0",
-  "typer==0.26.8",
+  "typer==0.27.0",
   "typing-extensions==4.16.0",
 ]
 
