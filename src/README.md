@@ -7,4 +7,4 @@ The `randalf` Python package.
 - `__main__.py` — enables `python -m randalf`.
 - `__init__.py` — package exports/version.
 
-See the [root README](../README.md) for what the tool does and how to install it.
+See the [root readme](../README.md) for what the tool does and how to install it.
