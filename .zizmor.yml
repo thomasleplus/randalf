@@ -5,7 +5,7 @@ rules:
       allow:
         - Azure/*
         - actions/*
-        - astral-sh/*
+        - astral-sh/setup-uv
         - aws-actions/*
         - docker/*
         - github/*
